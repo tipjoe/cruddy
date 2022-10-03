@@ -1,13 +1,26 @@
 # CRUDdy
-There are many names for people who create software: developer, engineer,
-programmer, etc. If you're trying to get a job in this field, you gotta know
-CRUD!
+So you wanna become an engineer (or developer or programmer)? You're gonna
+need to know CRUD!
 
 CRUD stands for **create-read-update-delete**. It's about data. When your
 app can handle data, it's _dynamic_. An app without CRUD is _static_.
+10+ years ago, you could get paid to make non-CRUD apps, but not so much today.
 
 This repo walks you through creating a *CRUD web application*. But first, here
 are some foundational concepts.
+
+## Engineer? Or Developer?
+These terms get used interchangably, but it's important to understand the
+difference in mindset.
+
+This isn't about being a snooty engineer who looks down on others who didn't
+(or couldn't) take the same educational path. Those of us who didn't get a CS
+degree from a university may have learned in more of a trade-school style
+(boot camp, online courses, self-taught, etc.) that
+focuses on practical skills to get hired rather than spending time on the
+computer science theory needed to think like an engineer.
+
+[Engineering Mindset](docs/readme/software-engineering.md)
 
 ## Stacks
 ![stack](https://user-images.githubusercontent.com/1587516/193465694-8456312b-7ce2-499c-afd4-444f4548b822.jpeg)
@@ -24,12 +37,18 @@ Look at the diagram above and you see that a _stack_ has elements
 in three areas:
 
 * Client
-* Internet (Network)
+* Network (Internet)
 * Server
 
-Let's look at this in terms of a web application. But the concepts apply to
-other types of apps, weather it's a website, a mobile app, a video game, or a
+Let's look at this in terms of our focus, a web application. The concepts apply
+to other types of apps, weather it's a website, a mobile app, a video game, or a
 weather sensor that reports conditions every few minutes.
 
-#### Client
-Client refers to the code running on a users
+[Clients](docs/readme/clients.md)
+[Networks](docs/readme/networks.md)
+[Servers](docs/readme/servers.md)
+
+
+
+
+

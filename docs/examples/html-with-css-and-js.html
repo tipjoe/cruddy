@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <style>
+        h1 {
+            color: purple;
+        }
+        .p-10 {
+            padding: 10px;
+        }
+    </style>
+    <body style="background-color: yellow;">
+        <h1 id="header" style="text-align: center;">A Header</h1>
+        <p>Some paragraph text.</p>
+        <ul>
+            <li>Bullet 1</li>
+            <li>Bullet 2</li>
+        </ul>
+        <div class="p-10" style="border: 3px solid; border-radius: 5px;">
+            A div with some text.
+            <button id="poop">
+                Click me to see some javascript!
+            </button>
+        </div>
+        <script>
+            const poopElement = document.getElementById("poop");
+            poopElement.addEventListener("click", function() {
+                // Change the button's text to show the joke.
+                this.innerText = "Ha ha! You fell for it!";
+
+                // Change the <h1> element's text to "Poop!".
+                document.getElementById("header").innerText = "Poop!";
+            });
+        </script>
+    </body>
+</html>
